@@ -13,4 +13,4 @@ with open('data/chicken.txt', 'r') as chicken:
         total_price += price
         total_days += 1
 
-    print(total_price // total_days) # //은 버림 나눗셈이여서 답이 정수로 
+    print(total_price // total_days) # //은 버림 나눗셈이여서 답이 정수로 나옴.
