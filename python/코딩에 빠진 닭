@@ -14,3 +14,18 @@ with open('data/chicken.txt', 'r') as chicken:
         total_days += 1
 
     print(total_price // total_days) # //은 버림 나눗셈이여서 답이 정수로 나옴.
+    
+    
+# 버림 나눗셈에서 나눗셈 으로 바꾼 코드.
+with open('data/chicken.txt', 'r') as chicken:
+    total_price = 0
+    total_days = 0
+
+    for line in chicken:
+        data = line.strip().split(": ")
+        price = int(data[1])
+
+        total_price += price
+        total_days += 1
+
+    print(total_price / total_days)
