@@ -2,7 +2,7 @@
 # 사용자는 반복적으로 단어와 뜻을 입력, 단어나 뜻으로 q를 입력하는 순간 프로그램은 즉시 종료. 사용자가 q를 입력하고 나면 파일은 더 이상 바뀌지 않아야 함.
 
 with open ('vocabulary.txt', 'w') as voc:
-    while True:
+    while True:  # 무한반복, break등을 통해 멈추는 조건이 있어야 반복이 종료된다.
         eng = input('영어 단어를 입력하세요: ')
         if eng == 'q':
             break
