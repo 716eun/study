@@ -1,0 +1,11 @@
+a, b, c = input().split()
+A = int(a)
+B = int(b)
+C = int(c)
+
+print((A+B)%C)
+print(((A%C) + (B%C))%C)
+print((A*B)%C)
+print(((A%C) * (B%C))%C)
+
+- 세개의 수를 받아 계산식 
