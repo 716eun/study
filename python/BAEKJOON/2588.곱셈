@@ -1,0 +1,16 @@
+a = input()
+b = input()
+
+B = list(b)
+
+
+print(int(a) * int(B[2]))
+print(int(a) * int(B[1]))
+print(int(a) * int(B[0]))
+print(int(a) * int(b))
+
+ - (세자리 수) * (세자리 수) 
+ - 첫번째 세자리 수 * 세자리 수 중 일의 숫자
+ - 두번째 세자리 수 * 세자리 수 중 십의 숫자
+ - 세번째 세자리 수 * 세자리 수 중 백의 숫자
+ - 네번째 세자리 수 * 세자리 수 
