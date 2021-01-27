@@ -1,0 +1,28 @@
+data = input().split()
+H = int(data[0])
+M = int(data[1])
+
+if M >= 45:
+    print(H, M - 45)
+elif M < 45 and H >= 1:
+    print(H - 1, M + 15)
+else:
+    H = 23
+    print(H, M+15)
+
+- 알람을 45분 일찍 설정하기.
+- if 문 사용
+
+
+H, M = map(int, input().split())
+
+if M >= 45:
+    print(H, M - 45)
+elif M < 45 and H >= 1:
+    print(H - 1, M + 15)
+else:
+    print(23, M + 15)
+
+- 다른 풀이에서 map이라는게 있어서 map 활용.
+- map 은 리스트의 요소를 지정된 함수로 처리.
+- 보통 여러 개의 데이터를 한번에 다른 형태로 바꾸기 위해 사용
