@@ -1,0 +1,7 @@
+n = int(input())
+result = 0
+for i in range(n+1):
+    result += i
+print(result) 
+
+- print를 for문 밖에 놓아야 전체 합만 나옴.
